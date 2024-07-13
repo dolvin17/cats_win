@@ -18,15 +18,15 @@ const metadata = {
 }
 
 // Create wagmiConfig
-const chains = [mainnet, sepolia] as const
+const chains = [sepolia] as const
 export const config = defaultWagmiConfig({
   chains,
   projectId,
   metadata,
   auth: {
     email: true, // default to true
-    socials: ['google', 'x', 'github', 'discord', 'apple'],
-    showWallets: true, // default to true
+    socials: ['google', 'apple'],
+    showWallets: false, // default to true
     walletFeatures: true // default to true
   },
   ssr: true,
