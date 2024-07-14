@@ -9,8 +9,11 @@ export default function Home() {
   return (
     <>
 <Navbar />
+<div className="flex flex-wrap">
+
 <Stage />
 <Incentivos />
+</div>
 	</>
   );
 }

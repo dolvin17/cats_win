@@ -1,7 +1,7 @@
 export default function Inventivos () {
 	return (
-<div className="max-w-md mx-auto bg-white mt-32 bg-gradient-to-r from-pink-300 to-yellow-200 via-green-200  rounded-xl shadow-md overflow-hidden md:max-w-2xl">
-	  <div className="md:flex">
+<div className="max-w-md mx-auto bg-white  border-black border-[1px] shadow-2xl mt-32 bg-gradient-to-r from-pink-300 to-yellow-200 via-green-200  rounded-xl overflow-hidden md:max-w-2xl">
+<div className="md:flex">
 		  <div className="p-8">
 			  <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Incentivos</div>
 			  <p className="mt-2 text-gray-500">
