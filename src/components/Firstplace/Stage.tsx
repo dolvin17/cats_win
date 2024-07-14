@@ -3,7 +3,7 @@ export default function Stage () {
 <div className="max-w-md mx-auto bg-white hover:scale-125 transition-transform border-black border-[1px] w-[500px] shadow-2xl mt-44 bg-gradient-to-r from-pink-300 to-yellow-200 via-green-200  rounded-xl overflow-hidden md:max-w-2xl">
         <div className="md:flex">
             <div className="p-8">
-                <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Como funciona</div>
+                <div className="uppercase tracking-wide hover:-translate-x-32 text-sm text-indigo-500 font-semibold">Como funciona</div>
                 <p className="mt-2 text-gray-500">
                     Nuestra comunidad recibe recompensas por alimentar gatitos en la calle. Amar es compartir, y sabemos que amas.
                 </p>
