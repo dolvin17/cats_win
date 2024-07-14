@@ -5,7 +5,7 @@ export default function Stage () {
             <div className="p-8">
                 <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Como funciona</div>
                 <p className="mt-2 text-gray-500">
-                    Únete a nuestra comunidad y recibe recompensas por alimentar gatos en la calle. ¡Haz la diferencia y gana tokens que puedes convertir en dinero!
+                    Nuestra comunidad recibe recompensas por alimentar gatitos en la calle. Amar es compartir, y sabemos que amas.
                 </p>
                 <div className="mt-4">
                     <h3 className="text-lg leading-6 font-medium text-gray-900">Cómo Funciona:</h3>
