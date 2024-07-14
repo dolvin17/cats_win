@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import Stage from "@/components/Firstplace/Stage";
 import Incentivos from "@/components/Firstplace/Incentivos";
 import Navbar from "@/components/Navigation/Navigation";
+import Download from "@/components/Firstplace/Download";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
 
 <Stage />
 <Incentivos />
+<Download />
 </div>
 	</>
   );

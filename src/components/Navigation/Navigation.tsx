@@ -16,7 +16,7 @@ export default function Navbar() {
 
   return (
     <section className="fixed w-full  flex flex-col lg:flex-row justify-center top-4 z-[1]">
-      <nav className="!z-50  w-full items-center shadow-xl justify-between border drop-shadow-lg bg-black backdrop-blur-lg border-black h-[70px]  px-8 rounded-xl flex lg:max-w-[54rem]">
+      <nav className="!z-50  w-full items-center shadow-xl justify-between border drop-shadow-lg bg-black backdrop-blur-lg border-black h-[100px]  px-8 rounded-xl flex lg:max-w-[54rem]">
         <Link className="flex-shrink-0 max-w-[6rem]" href="/">
           <Image
             src="/logom.png"
