@@ -9,21 +9,29 @@ export default function Navbar() {
 
   const LINKS = (
     <Fragment>
-				 
+		<button className="text-red-500 hover:bg-blue-500 hover:text-black bg-slate-800 border-red-500 px-4 border-[1px]">
+			Who
+		</button>
+		<button className="text-red-500 hover:bg-blue-500 hover:text-black bg-slate-800 border-red-500 px-4 border-[1px]">
+			Why
+		</button>
+		<button className="text-red-500 hover:bg-blue-500 hover:text-black bg-slate-800 border-red-500 px-4 border-[1px]">
+			When
+		</button>
 	<w3m-connect-button />
     </Fragment>
   );
 
   return (
     <section className="fixed w-full  flex flex-col lg:flex-row justify-center top-4 z-[1]">
-      <nav className="!z-50  w-full items-center shadow-xl justify-between border drop-shadow-lg bg-black backdrop-blur-lg border-black h-[100px]  px-8 rounded-xl flex lg:max-w-[54rem]">
-        <Link className="flex-shrink-0 max-w-[6rem]" href="/">
+      <nav className="!z-50  w-full items-center shadow-xl justify-between border drop-shadow-lg bg-black backdrop-blur-lg border-black h-[120px]  px-8 rounded-xl flex lg:max-w-[54rem]">
+        <Link className="flex-shrink-0 max-w-[9rem]" href="/">
           <Image
             src="/logom.png"
             alt=""
-            width={100}
-            height={100}
-            className="w-[16rem] mx-auto h-[4rem]"
+            width={200}
+            height={200}
+            className="w-[16rem] mx-auto h-[8rem]"
           />
         </Link>
         <div className="items-center gap-16 justify-end hidden lg:flex">
